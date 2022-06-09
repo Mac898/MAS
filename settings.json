@@ -1,0 +1,53 @@
+{
+    "SETTINGS": {
+        "VM": {
+            "USER": "ubuntu",
+            "SSH_KEY": "id_rsa",
+            "CLIENT_PATH": "/home/ubuntu/MASclient",
+            "APTPACKAGES": [
+                "python3",
+                "screen",
+                "python3-pip",
+                "python3-tk",
+                "python3-dev",
+                "tesseract-ocr",
+                "libtesseract-dev",
+                "firefox",
+                "xorg",
+                "openbox",
+                "openvpn"
+            ],
+            "PIPPACKAGES": [
+                "pytesseract==0.2.2",
+                "numpy",
+                "requests",
+                "opencv-python",
+                "tesseract",
+                "pyautogui"
+            ]
+        },
+        "EXSI": {
+            "IP":"$$$$",
+            "USER":"$$$$",
+            "PASS":"$$$$",
+            "VMPREFIX": "SciExExperimentVM-",
+            "RAM": "4096",
+            "CPU": "2",
+            "DATASTORE": "vm 2",
+            "NETWORK": "VM Network",
+            "DATACENTER": "ha-datacenter",
+            "ISOPATH": "[VM Storage] iso/SciEx LiveSSH Master V6.iso"
+        },
+        "VPN": {
+            "FILE": "openvpn-creds.txt"
+        },
+        "COMMANDORDER": "GenerateVM,AddNIC,AddCD,PowerOnVM,PushPayload,JoinVPN,LaunchFirefox,RunAutoCompleteTest,CloseFirefox,LeaveVPN,ShutdownLinux,DeleteVM"
+    },
+    "EXPERIMENT": {
+        "RUNS_PER_LOCATION": 3,
+        "RUNS_PER_STIMULUS": 3,
+        "STIMULI_TEMPLATE": [
+            "test"
+        ]
+    }
+}
