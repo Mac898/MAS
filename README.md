@@ -429,31 +429,3 @@ I have finished coding up the code that reads in the CSV data from John Hopkins 
 ## 29th May 2022
 I have now performed the ANVOVA and Pearson's analysis on the data. As for the ANOVA, we have found statistical significant below P=0.01.
 Unfortunatently, with a Pearsons (R) value of 0.037, there is no good correlation between the variables studied.
-
-# The Start Of The Research Paper
-
-## Title
-
-## Abstract
-
-## Introduction
-### Research Question
-How much does the prevalance of real life events affect the algorithims that power google search?
-
-### Problems with previous research
-- Fingerprinting of the user via cookies, user agent, accept header, content-encoding, content-language, do not track requests, referer, fonts, media devices, screen size fingerprinting, webGL parameters & renderer, timezone, navigator properties, canvas fingeprinting, IP address, geo-location, audio elements, audio context & formats, keyboard layout, hardware concurrency, MAC address and more.
-- Use of API's or other non-natural collection methods that could result in different results from normal browser queries
-
-## Methodology
-### Hypothesis
-The prevalance of Covid-19 related key-terms in autocomplete results correlates with a higher prevalance of Covid-19 infections in a country.
-
-### Data Gathering (Experimental Setup)
-
-### Data Processing & Analyzing
-
-## Results
-
-## Discussion
-
-## Conclusion
